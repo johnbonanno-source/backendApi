@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/john/Projects/backendApi/backendApi/backendApi.csproj": {}
+    "C:\\Users\\John\\Source\\Repos\\backendApi\\backendApi\\backendApi.csproj": {}
   },
   "projects": {
-    "/Users/john/Projects/backendApi/backendApi/backendApi.csproj": {
+    "C:\\Users\\John\\Source\\Repos\\backendApi\\backendApi\\backendApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/john/Projects/backendApi/backendApi/backendApi.csproj",
+        "projectUniqueName": "C:\\Users\\John\\Source\\Repos\\backendApi\\backendApi\\backendApi.csproj",
         "projectName": "backendApi",
-        "projectPath": "/Users/john/Projects/backendApi/backendApi/backendApi.csproj",
-        "packagesPath": "/Users/john/.nuget/packages/",
-        "outputPath": "/Users/john/Projects/backendApi/backendApi/obj/",
+        "projectPath": "C:\\Users\\John\\Source\\Repos\\backendApi\\backendApi\\backendApi.csproj",
+        "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\John\\Source\\Repos\\backendApi\\backendApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio\\VS Tools, Components, and SDKs\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +59,10 @@
               "target": "Package",
               "version": "[7.0.9, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -66,6 +76,10 @@
             "Microsoft.Owin.Security.OAuth": {
               "target": "Package",
               "version": "[4.2.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.8, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -95,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
