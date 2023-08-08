@@ -3,7 +3,7 @@ https://dev.mysql.com/downloads/mysql/
 
 Download that, then MySQL Workbench. Create a database.
 Then go into Visual Studio and follow the instructions below to run the database migration and update. 
-This will create the users table. You can Then add a user into it
+This will create the users table. You can then add a user into it
 
 To create the Users table in your (presumably installed MySql 8.1) server
 
