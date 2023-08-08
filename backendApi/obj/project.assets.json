@@ -12018,32 +12018,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\John\\.nuget\\packages\\": {},
-    "D:\\Visual Studio\\VS Tools, Components, and SDKs\\NuGetPackages": {}
+    "/Users/john/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\John\\Source\\Repos\\backendApi\\backendApi\\backendApi.csproj",
+      "projectUniqueName": "/Users/john/Projects/backendApi/backendApi/backendApi.csproj",
       "projectName": "backendApi",
-      "projectPath": "C:\\Users\\John\\Source\\Repos\\backendApi\\backendApi\\backendApi.csproj",
-      "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\John\\Source\\Repos\\backendApi\\backendApi\\obj\\",
+      "projectPath": "/Users/john/Projects/backendApi/backendApi/backendApi.csproj",
+      "packagesPath": "/Users/john/.nuget/packages/",
+      "outputPath": "/Users/john/Projects/backendApi/backendApi/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Visual Studio\\VS Tools, Components, and SDKs\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/john/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12126,7 +12119,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
       }
     }
   },
