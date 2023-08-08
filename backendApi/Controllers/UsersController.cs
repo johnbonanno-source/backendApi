@@ -9,7 +9,7 @@ using backendApi.Models;
 
 namespace backendApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
     {
@@ -20,7 +20,7 @@ namespace backendApi.Controllers
             _context = context;
         }
 
-        // GET: api/Users
+        // GET: /Users
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Users>>> GetUsers()
         {
@@ -31,22 +31,41 @@ namespace backendApi.Controllers
             return await _context.Users.ToListAsync();
         }
 
-        // GET: api/Users/5
-        [HttpGet("{id}")]
+        // GET: /Users/5
+        [HttpGet("id/{id}")]
         public async Task<ActionResult<Users>> GetUsers(int id)
         {
           if (_context.Users == null)
           {
+              
               return NotFound();
           }
-            var users = await _context.Users.FindAsync(id);
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.user_id == id);
 
-            if (users == null)
+            if (user == null)
             {
                 return NotFound();
             }
 
-            return users;
+            return user;
+        }
+        // GET: /Users/username/{username}
+        [HttpGet("username/{username}")]
+        public async Task<ActionResult<Users>> GetUserByUsername(string username)
+        {
+            if (_context.Users == null)
+            {
+                return NotFound();
+            }
+
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.username == username);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return user;
         }
 
         // PUT: api/Users/5

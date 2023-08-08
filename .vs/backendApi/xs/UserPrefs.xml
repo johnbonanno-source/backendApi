@@ -1,4 +1,30 @@
 ﻿<Properties StartupConfiguration="{5169C47A-5A20-45CE-A182-66EEC7923F2F}|https">
-  <MonoDevelop.Ide.ItemProperties.backendApi FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.backendApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="backendApi/Program.cs">
+    <Files>
+      <File FileName="backendApi/README.txt" Line="20" Column="1" />
+      <File FileName="backendApi/Program.cs" Line="27" Column="27" />
+      <File FileName="backendApi/appsettings.json" Line="1" Column="1" />
+      <File FileName="backendApi/Controllers/UsersController.cs" Line="53" Column="59" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="backendApi" expanded="True">
+            <Node name="backendApi">
+              <Node name="Migrations" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

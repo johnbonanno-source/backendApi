@@ -12023,11 +12023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/john/Projects/backendApi/backendApi/backendApi.csproj",
+      "projectUniqueName": "/Users/john/Documents/Budgeting Tool/backendApi/backendApi/backendApi.csproj",
       "projectName": "backendApi",
-      "projectPath": "/Users/john/Projects/backendApi/backendApi/backendApi.csproj",
+      "projectPath": "/Users/john/Documents/Budgeting Tool/backendApi/backendApi/backendApi.csproj",
       "packagesPath": "/Users/john/.nuget/packages/",
-      "outputPath": "/Users/john/Projects/backendApi/backendApi/obj/",
+      "outputPath": "/Users/john/Documents/Budgeting Tool/backendApi/backendApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/john/.nuget/NuGet/NuGet.Config"
