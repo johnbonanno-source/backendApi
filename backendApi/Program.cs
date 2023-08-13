@@ -3,6 +3,7 @@ using backendApi.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddCors();
 
 // Add services to the container.
 
@@ -26,9 +27,27 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors(builder =>
+{
+    builder.AllowAnyOrigin()
+           .AllowAnyMethod()
+           .AllowAnyHeader();
+});
+
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
 
+//builder.Services.AddCors(options =>
+//{
+//    options.AddDefaultPolicy(builder =>
+//    {
+//        builder.WithOrigins("http://localhost:3000") // Add your frontend URL here
+//               .AllowAnyHeader()
+//               .AllowAnyMethod();
+//    });
+//});
+//app.UseCors();
+//app.UseRouting();
