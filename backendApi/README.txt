@@ -5,7 +5,7 @@ Create a database.
 Then go into Visual Studio and follow the instructions below to run the database migration and update. 
 This will create the users table. You can then add a user into it
 
-Dependencies:
+development Dependencies:
 npm install cors
 dotnet tool install --global dotnet-ef
 dotnet tool install --global dotnet-aspnet-codegenerator
@@ -15,6 +15,9 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools
 dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Microsoft.AspNet.WebApi.Cors
 Please note that these commands assume you have the .NET Core SDK installed
+
+for cors configuration please run: 
+dotnet dev-certs https --trust 
 
 dependency injection:
 first check the appsettings.json and make sure the connection string (especially the username/password) matches what is configured at your local SQL database
